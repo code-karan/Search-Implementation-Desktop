@@ -47,7 +47,7 @@ func (s *Search) LocalSearch(query, index, clientID, params string) (*schema.Loc
 	if err != nil {
 		return nil, err
 	}
-	req.Header.Add("Authorization", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiIwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJzZXNzaW9uX2lkIjoiNWY0OTQxMmUtNGRlNy00M2I4LWFkNzYtNzJiN2IyMTY0ODVjIiwiZXhwIjoxNzM0MTU3MDM4fQ.KexPCsIihl2_U7JI_QNveyM_diiqods05ZdKse_U2TM")
+	req.Header.Add("Authorization", "")
 	req.Header.Add("platform_id", "wms_central")
 	// req.Header.Add("User-Agent", "Apidog/1.0.0 (https://apidog.com)")
 
