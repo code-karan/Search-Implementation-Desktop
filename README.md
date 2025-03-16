@@ -2,7 +2,7 @@
 
 ## About
 
-This is the official Wails Svelte-TS template.
+Atlas search frontend implementation using Sveltekit and Wails (Go) desktop
 
 ## Live Development
 
